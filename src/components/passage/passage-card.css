@@ -16,6 +16,20 @@
 	padding: 0;
 }
 
+.passage-card .card #main {
+	display: flex;
+	flex-direction: column;
+}
+
+.passage-card .card #upper {
+	display: flex;
+	flex-direction: row;
+}
+
+.passage-card .card #lower {
+	display: flex;
+}
+
 .passage-card h2 {
 	color: var(--black);
 	font-size: 100%;
