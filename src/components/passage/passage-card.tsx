@@ -3,7 +3,6 @@ import {DraggableCore, DraggableCoreProps} from 'react-draggable';
 import classNames from 'classnames';
 import {Card, CardContent} from '../container/card';
 import {Passage, TagColors} from '../../store/stories';
-import {TagStripe} from '../tag/tag-stripe';
 import {TagLabel} from '../tag/tag-label';
 import './passage-card.css';
 
