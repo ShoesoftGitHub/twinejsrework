@@ -6,18 +6,18 @@ This is a rework of twinejs which implements the following features:
 
 ## Light: <br>
 New:<br>
-<img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/LightMode.png" width="50%" height="50%"/>
+<img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/LightMode.png" width="60%" height="60%"/>
 <br>
 Old:<br>
-<img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/LightModeOld.png"/>
+<img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/LightModeOld.png" width="60%" height="60%"/>
 <br>
 
 ## Dark: <br>
 New:<br>
-<img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/DarkMode.png"/>
+<img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/DarkMode.png" width="60%" height="60%"/>
 <br>
 Old:<br>
-<img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/DarkModeOld.png"/>
+<img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/DarkModeOld.png" width="60%" height="60%"/>
 <br>
 
 ## twinejs
