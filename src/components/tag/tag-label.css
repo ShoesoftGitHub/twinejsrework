@@ -2,6 +2,7 @@
 
 .tag-label {
 	display: flex;
+	flex-direction: column;
 }
 
 .tag-label span {
@@ -37,4 +38,10 @@
 
 .tag-label .color-purple {
 	background: var(--purple);
+}
+
+.tag-label p {
+	color: var(--black);
+	font-size: 100%;
+	font-weight: 300;
 }
