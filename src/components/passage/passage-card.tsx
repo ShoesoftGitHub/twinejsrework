@@ -90,9 +90,6 @@ export const PassageCard: React.FC<PassageCardProps> = React.memo(props => {
 				<Card highlighted={passage.highlighted} selected={passage.selected}>
 					<div id="main">
 						<div id="upper">
-							<!--No Tag Stripes
-							<TagStripe tagColors={tagColors} tags={passage.tags} />
-							-->
 							<h2>{passage.name}</h2>
 							<CardContent>{excerpt}</CardContent>
 						</div>
