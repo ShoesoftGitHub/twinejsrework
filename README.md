@@ -2,7 +2,7 @@ This is a rework of twinejs which implements the following features:
 - Tags are listed on top of passages.
 - Passages are styled differently.
 
-New Look: <br><br>
+# New Look: <br><br>
 <img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/LightMode.png"/>
 
 ## twinejs
