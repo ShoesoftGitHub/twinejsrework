@@ -12,7 +12,7 @@ Old:<br>
 <img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/LightModeOld.png"/>
 <br>
 
-## Old Look: <br>
+## Dark: <br>
 New:<br>
 <img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/DarkMode.png"/>
 <br>
