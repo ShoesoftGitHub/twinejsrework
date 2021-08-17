@@ -211,6 +211,21 @@
 		background: @color-paper-dark;
         border: 1px solid rgba(230, 230, 230, 0.8);
         
+        &.selected {
+		  border: @len-hairline solid lighten(@color-link-alt, 60%);
+		  background: lighten(@color-link-alt, 25%);
+        }
+
+        &.highlighted {
+            border: @len-hairline solid lighten(@color-highlight, 60%);
+            background: lighten(@color-highlight, 10%);
+        }
+
+        &.selected.highlighted {
+            border: @len-hairline solid mix(lighten(@color-highlight, 60%), lighten(@color-link-alt, 60%));
+            background: mix(lighten(@color-highlight, 10%), lighten(@color-link-alt, 25%));
+        }
+        
         .title {
             
             .text {
