@@ -4,6 +4,7 @@ import classNames from 'classnames';
 import {Card, CardContent} from '../container/card';
 import {Passage, TagColors} from '../../store/stories';
 import {TagStripe} from '../tag/tag-stripe';
+import {TagLabel} from '../tag/tag-label';
 import './passage-card.css';
 
 export interface PassageCardProps {
@@ -87,9 +88,18 @@ export const PassageCard: React.FC<PassageCardProps> = React.memo(props => {
 				style={style}
 			>
 				<Card highlighted={passage.highlighted} selected={passage.selected}>
-					<TagStripe tagColors={tagColors} tags={passage.tags} />
-					<h2>{passage.name}</h2>
-					<CardContent>{excerpt}</CardContent>
+					<div id="main">
+						<div id="upper">
+							<!--No Tag Stripes
+							<TagStripe tagColors={tagColors} tags={passage.tags} />
+							-->
+							<h2>{passage.name}</h2>
+							<CardContent>{excerpt}</CardContent>
+						</div>
+						<div id="lower">
+							<TagLabel tagColors={tagColors} tags={passage.tags} />
+						</div>
+					</div>
 				</Card>
 			</div>
 		</DraggableCore>
