@@ -1,3 +1,8 @@
+This is a rework of twinejs which tries to implement:
+- Tag Labels: Tags on passages are listed with name below the cards.
+
+
+
 **You are reading the README of the `develop` branch, which is currently being
 refactored and revised. Much functionality of Twine 2.3.x needs to be restored
 on this branch, and what is here is still buggy.**
