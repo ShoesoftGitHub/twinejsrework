@@ -6,7 +6,7 @@ This is a rework of twinejs which implements the following features:
 
 ## Light: <br>
 New:<br>
-<img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/LightMode.png"/>
+<img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/LightMode.png" width="50%" height="50%"/>
 <br>
 Old:<br>
 <img src="https://github.com/ShoesoftGitHub/twinejsrework/blob/2.3-maintenance/preview/LightModeOld.png"/>
