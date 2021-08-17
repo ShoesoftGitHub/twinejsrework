@@ -15,8 +15,9 @@ export const TagLabel: React.FC<TagLabelProps> = React.memo(props => {
 					className={`color-${props.tagColors[tag]}`}
 					key={tag}
 					title={tag}
+				>
 					<p>{tag}</>
-				/>
+				</span>
 			))}
 		</div>
 	);
