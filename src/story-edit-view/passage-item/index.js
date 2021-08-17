@@ -142,12 +142,33 @@ module.exports = Vue.extend({
 
 			this.passage.tags.forEach(t => {
 				if (this.parentStory.tagColors[t]) {
-					result.push(this.parentStory.tagColors[t]);
+					result.push(
+                        this.parentStory.tagColors[t]);
 				}
 			});
 
 			return result;
 		},
+        
+        tagNames() {
+            let result = [];
+            
+            this.passage.tags.forEach(t => {
+                result.push(t);
+            });
+            
+            return result;
+        },
+        
+        tagNameColorMap() {
+            let result = {};
+            
+            this.passage.tags.forEach(t => {
+                result[t] = this.parentStory.tagColors[t];
+            });
+            
+            return result;
+        },
 
 		excerpt() {
 			if (this.passage.text.length < 100) {
